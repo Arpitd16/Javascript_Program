@@ -1,0 +1,29 @@
+.top {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border:solid 10px;
+    border-color: black;
+    padding: 20px;
+    
+}
+.middle {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    border: solid 20px;
+    margin-left: 260px;
+}
+.bottom{
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    border: solid 10px;
+    margin-left: 500px;
+}
+.font {
+    text-decoration: underline;
+}
+body{
+    margin:0;
+}

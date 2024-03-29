@@ -1,0 +1,25 @@
+/*************tag selector*************/
+h1{
+    color: rgb(183, 183, 223);
+    font-size: 100px;
+}
+img{
+    background-color: rgb(158, 125, 189);
+}
+/***************class selector******************/
+.broccoli {
+    background-color: red;
+}
+.circular{
+    border-radius: 100%;
+}
+
+
+/***************id selector****************/
+#heading {
+    color: chartreuse;
+}
+/*#big{
+    font-size: 1000px;
+}
+/*because the id does not have selector*/

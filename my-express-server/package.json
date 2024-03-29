@@ -1,0 +1,16 @@
+{
+  "name": "my-express-server",
+  "version": "1.0.0",
+  "description": "this is my server node file",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "arpit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0"
+  }
+}

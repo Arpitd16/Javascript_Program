@@ -1,0 +1,11 @@
+<%- include("partials/header"); -%>
+<h1>Home</h1>
+<p><%= StartingContent %></p>
+<!-- <% for(var i=0;i<newitem.length;i++) {%>
+//<% //console.log(newitem[i].title); %>
+<% } %> -->
+<% newitem.forEach(function(newitem){ %>
+ <h1> <%=newitem.title%></h1>
+ <p><%= newitem.content.substring(0,100)+"....." %><a href="/newitem/<%=newitem.title%>">Read More</a></p>
+  <%  }); %>
+<%- include("partials/footer"); -%>
